@@ -31,7 +31,7 @@ ex) git checkout -b apply-feedback
 1. 접근제어자
 
 2. CarRace
-  * 매개변수에 넣지 말고 cars 사용
+    * 매개변수에 넣지 말고 cars 사용
 
 3. Cars
   * findMaxPosition, fineWinners 매개변수 넣지 말고 멤버변수 사용하기
