@@ -24,3 +24,25 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+
+---
+스터디 피드백 내용
+접근제어자
+
+CarRace
+매개변수에 넣지 말고 cars 사용
+
+Cars
+findMaxPosition
+fineWinners
+매개변수 넣지 말고 멤버변수 사용하기
+
+CarRace
+MVC 패턴으로 하고 싶은 거면 view랑 로직 처리 분리
+main을 컨트롤러 삼아서 view는 main에서 
+
+Name 유효성 검사
+유효성 검사를 이중으로 하게 된 이유
+- 강의 피드백에서 사용 전에 검사하는 것 고려해보라고 함. 
+- 개인적으로는 생성할 때 바로 유효성 검사하는 것이 뒷 로직까지 가지 않고 바로 검사할 수 있기 때문에 생성하는 부분에서도 필요하다고 생각. 
+-> 지금 코드에서는 생성 후에 바로 사용하는 것이므로 값이 변경될 가능성이 없기 때문에 이중검사는 불필요 할듯
